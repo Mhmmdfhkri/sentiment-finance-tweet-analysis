@@ -1,0 +1,14 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Model weights & data (Jangan diup ke github karena terlalu besar)
+backend/saved_weights.pt
+backend/sentiment_finance_ML.pkl
+*.csv
+*.xlsx
+
+# Environment variables (jika nanti pakai token)
+.env
